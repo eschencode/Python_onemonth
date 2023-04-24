@@ -1,0 +1,16 @@
+<html>
+		<head>
+			<title> {{title}}
+			{% if title=="About" %}
+			About Page | OneMonth.com
+			{% elif title=="Contact" %}
+			Contact Page
+			{% else %}
+			OneMonth.com
+			{% endif %}
+		</title>
+		</head>
+	<body>
+		<a href="/about">about</a>
+		<a href="/">Home</a>
+		<a href="/contact">Contact</a>
